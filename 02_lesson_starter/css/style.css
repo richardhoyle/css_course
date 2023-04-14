@@ -1,0 +1,36 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  font-size: 19px;
+  border: 3px solid rgb(35, 146, 13);
+}
+
+h1 h2 {
+  color: blue !important;
+}
+
+p {
+  color: purple;
+}
+
+/* overriden */
+
+p {
+  color: red;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+  color: hotpink;
+}
